@@ -8,6 +8,14 @@ body {
     font-family: "Montserrat", Helvetica Neue, sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
 img {
     max-width: 100%;
 }
@@ -138,6 +146,44 @@ h3 {
     line-height: 1.5;
 }
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7c69a4;
+    color: white;
+}
+
+.foot-cont {
+    width: 75%;
+    padding: 20px 0;
+}
+
+.col footer,
+.col-nav footer {
+    width: 40%;
+}
+
+.col div {
+    text-align: center;   
+    margin: 10px 0; 
+}
+
+.col-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul li {
+    width: 22%;
+    padding: 15px 0;
+}
+
+
+
 
 
 
@@ -263,5 +309,30 @@ h3 {
         display: inline;
     }
 
+    /* FOOTER */
+
+    .foot-cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+    }
+
+    .col div {
+        text-align: left;   
+        margin: 10px 0; 
+    }
+
+    .foot-cont {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .col-nav ul {
+        display: flex;
+        justify-content: center;    
+        flex-wrap: nowrap;    
+    }
+
+    
 
 }
