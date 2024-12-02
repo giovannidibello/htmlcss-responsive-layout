@@ -8,6 +8,10 @@ body {
     font-family: "Montserrat", Helvetica Neue, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* HEADER */
 
 header {
@@ -21,6 +25,52 @@ h1 {
     text-align: center;
     padding: 20px 0;
 }
+
+/* REGOLE MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f5f3;
+}
+
+.container {
+    padding: 15px;
+}
+
+h2 {
+    color: #4e3969;
+    padding: 20px 0;
+}
+
+h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+h5 {
+    color: #a599a1;
+    padding-top: 10px;
+}
+
+.plus {
+    display: none;
+}
+
+.col-info {
+    background-color: white;
+    padding: 20px;
+}
+
+.info-cont div {
+    padding: 10px 0;
+}
+
+
+
+
+
+
 
 
 
@@ -43,9 +93,26 @@ h1 {
         text-align: left;
     }
 
+    /* REGOLE MAIN */
+
+    .plus {
+        display: inline;
+    }
+
+    .info-cont {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 10px;
+    }
+
+    .info-cont div {
+        width: 32%;
+    }
+
+   
 
 
-    
+
 }
 
 
@@ -58,5 +125,36 @@ h1 {
   *************************************************/
 
   @media screen and (min-width:992px) {
+
+
+
+
+    /* REGOLE MAIN */
+
+    .container {
+        width: 80%;
+    }
+
+    .ricetta .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-img {
+        width: 70%;
+    }
+    
+    .col-info {
+        width: 30%;
+    }
+
+    .info-cont {
+        display: block;        
+    }
+
+    .info-cont div {
+        width: 100%;
+    }
+
     
   }
