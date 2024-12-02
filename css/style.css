@@ -217,6 +217,12 @@ ul li {
         display: inline;
     }
 
+    .col-img img {
+        width: 100%; 
+        /* height: auto; 
+        display: block; */
+    }
+
     .info-cont {
         display: flex;
         flex-wrap: wrap;
@@ -284,6 +290,7 @@ ul li {
     .ricetta .row {
         display: flex;
         justify-content: space-between;
+        align-items: stretch;
     }
 
     .col-img {
