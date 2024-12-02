@@ -110,6 +110,33 @@ h5 {
     color: #e62222;
 }
 
+/* sezione presentazione */
+
+h3 {
+    margin: 20px 0;
+}
+
+.border {
+    width: 10%;
+    height: 2px;
+    background-color: #f7972e;
+    margin-bottom: 15px;
+}
+
+.presentation img {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.presentation span {
+    font-weight: bold;
+}
+
+.presentation p {
+    line-height: 1.5;
+}
 
 
 
@@ -158,9 +185,30 @@ h5 {
     }
 
     /* sezione social */
-    
-    
-   
+
+
+
+    /* sezione presentazione */
+
+    .presentation img {
+        width: 50%;
+        margin: 0;
+    }
+
+    .presentation p img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .clearfix::after {
+        display: table;
+        content: "";
+        clear: both;
+
+    }
+
+
+
 
 
 
@@ -171,11 +219,11 @@ h5 {
 
 
 
- /*************************************************
+/*************************************************
     VERSIONE DESKTOP (sopra i 992px)
   *************************************************/
 
-  @media screen and (min-width:992px) {
+@media screen and (min-width:992px) {
 
 
 
@@ -196,13 +244,13 @@ h5 {
     .col-img {
         width: 70%;
     }
-    
+
     .col-info {
         width: 30%;
     }
 
     .info-cont {
-        display: block;        
+        display: block;
     }
 
     .info-cont div {
@@ -215,5 +263,5 @@ h5 {
         display: inline;
     }
 
-    
-  }
+
+}
