@@ -4,3 +4,59 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Montserrat", Helvetica Neue, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    height: 80px;
+}
+
+
+h1 {
+    font-family: "Nerko One", cursive;
+    color: #ff9614;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+/*************************************************
+    VERSIONE TABLET (sopra i 768px)
+ *************************************************/
+
+@media screen and (min-width:768px) {
+
+    /* HEADER */
+
+    h1 {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+
+
+    
+}
+
+
+
+
+
+
+ /*************************************************
+    VERSIONE DESKTOP (sopra i 992px)
+  *************************************************/
+
+  @media screen and (min-width:992px) {
+    
+  }
