@@ -38,6 +38,8 @@ main {
     padding: 15px;
 }
 
+/* section ricetta */
+
 h2 {
     color: #4e3969;
     padding: 20px 0;
@@ -65,6 +67,50 @@ h5 {
 .info-cont div {
     padding: 10px 0;
 }
+
+.info-cont span {
+    font-weight: bold;
+}
+
+/* sezione social */
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.socials span {
+    display: none;
+}
+
+.social {
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#fb {
+    color: #1a77f3;
+}
+
+#tw {
+    color: #009eff;
+}
+
+#inst {
+    color: #df4c83;
+}
+
+#pint {
+    color: #e62222;
+}
+
+#yout {
+    color: #e62222;
+}
+
+
 
 
 
@@ -95,6 +141,8 @@ h5 {
 
     /* REGOLE MAIN */
 
+    /* section ricetta */
+
     .plus {
         display: inline;
     }
@@ -109,6 +157,9 @@ h5 {
         width: 32%;
     }
 
+    /* sezione social */
+    
+    
    
 
 
@@ -135,6 +186,8 @@ h5 {
         width: 80%;
     }
 
+    /* section ricetta */
+
     .ricetta .row {
         display: flex;
         justify-content: space-between;
@@ -154,6 +207,12 @@ h5 {
 
     .info-cont div {
         width: 100%;
+    }
+
+    /* sezione social */
+
+    .socials span {
+        display: inline;
     }
 
     
